@@ -28,8 +28,11 @@ export default function Hero() {
           <span className="text-orange">calculée en quelques secondes.</span>
         </h1>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">
-          Solutions au quotidien. Ajoutez vos appareils, indiquez l’autonomie souhaitée : le
-          simulateur recommande la station EcoFlow adaptée.
+          <span className="sm:hidden">Trouvez la station EcoFlow adaptée à vos appareils.</span>
+          <span className="hidden sm:inline">
+            Solutions au quotidien. Ajoutez vos appareils, indiquez l’autonomie souhaitée : le
+            simulateur recommande la station EcoFlow adaptée.
+          </span>
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <a
